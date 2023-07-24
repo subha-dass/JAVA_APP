@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.UUID;
 
 @Service
-public class TransactionService {
+public class TxntranService {
     @Autowired
     Txnrepo transactionRepository;
 
