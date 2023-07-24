@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b3404a-1d8b-490c-9085-791ce27fdb9d" name="Changes" comment="" />
+    <list default="true" id="a0b3404a-1d8b-490c-9085-791ce27fdb9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/config/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/controller/usercontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/dto/CreateUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/model/Userdetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/repo/Userrepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/service/UserdetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/model/WalletModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/repo/WalletRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/service/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/Transactionservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/controller/TxnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/dto/TransactionCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/model/TxnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/repo/Txnrepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/service/TransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/service/TxntranService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +64,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/JDBL/JDBL_git/JBDL-50/L18_redis",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JDBL/JAVA_PROJECT/sprngsecurityproject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.sprngsecurityproject.config" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SprngsecurityprojectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.sprngsecurityproject.SprngsecurityprojectApplication" />
@@ -76,5 +108,31 @@
       <updated>1688794498509</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/sprngsecurityproject/controller/AdminController.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/sprngsecurityproject/controller/AdminController.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.9/spring-security-core-5.7.9.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>28</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.10-SNAPSHOT/spring-security-core-5.7.10-20230717.124349-6.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>49</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

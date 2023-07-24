@@ -1,5 +1,7 @@
 package com.example.sprngsecurityproject.controller;
 
+import com.example.sprngsecurityproject.config.JwtUtil;
+import com.example.sprngsecurityproject.dto.AdminLoginDTO;
 import com.example.sprngsecurityproject.dto.BookDTO;
 import com.example.sprngsecurityproject.dto.adminDTO;
 import com.example.sprngsecurityproject.model.AdminModel;
@@ -9,7 +11,10 @@ import com.example.sprngsecurityproject.service.AdminService;
 import com.example.sprngsecurityproject.service.BookService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +27,12 @@ public class AdminController {
     AdminService adminService;
     @Autowired
     BookService bookService;
+
+    @Autowired
+    private AuthenticationManager authenticationManager;
+
+    @Autowired
+    JwtUtil jwtUtil;
 
     @PostMapping("/createadmin")
     public String createAdmin(@RequestBody adminDTO adminDTO1){
@@ -44,10 +55,23 @@ public class AdminController {
     @GetMapping("/Admin/getbook/{authorName}")
     public List<BookDTO> getBoook(@PathVariable("authorName") String authorName )throws Exception{
         System.out.println("authorName is"+authorName);
+
         List<BookModel> bookdetails= bookService.getBookname(authorName);
         ModelMapper modelMapper=new ModelMapper();
         List<BookDTO> bookDTOS=bookdetails.stream().map(book->modelMapper.map(book, BookDTO.class)).
                 collect(Collectors.toList());
         return bookDTOS;
+    }
+    @PostMapping("/Admin/login")
+    public String adminlogin(@RequestBody AdminLoginDTO adminLoginDTO) throws Exception {
+        try {
+            authenticationManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(
+                            adminLoginDTO.getUsername(),adminLoginDTO.getPassword())
+            );
+        }catch (Exception e){
+            throw new Exception("Invalid username password");
+        }
+        return "token generated"+jwtUtil.generateToken(adminLoginDTO.getUsername());
     }
 }
