@@ -5,32 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b3404a-1d8b-490c-9085-791ce27fdb9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/config/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/controller/usercontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/dto/CreateUserReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/model/Userdetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/repo/Userrepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/java/com/user/service/UserdetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/User-Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/model/WalletModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/repo/WalletRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/java/com/user/service/WalletService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/Wallet-Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/Transactionservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/controller/TxnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/dto/TransactionCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/model/TxnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/repo/Txnrepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/service/TransactionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/java/com/user/service/TxntranService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WalletMgmt/transaction-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/config/JwtValidationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/controller/cartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/dto/ItemDetaildto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/model/ItrmDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/repo/ItemRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/java/org/example/service/KafkaListner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/CartService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/DTO/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/DTO/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/DTO/UserRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/LoginConfig/ConfigSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/LoginConfig/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/LoginConfig/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/LoginConfig/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/LoginConfig/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/LoginConfig/passwordencoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/loginservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/java/org/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ecommerce/LoginService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JDBL/JAVA_PROJECT/sprngsecurityproject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JDBL/JAVA_PROJECT/Ecommerce&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
@@ -112,16 +114,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/sprngsecurityproject/controller/AdminController.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/sprngsecurityproject/controller/AdminController.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.9/spring-security-core-5.7.9.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
           <line>28</line>

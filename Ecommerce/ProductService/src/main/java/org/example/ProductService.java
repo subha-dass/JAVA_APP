@@ -1,11 +1,12 @@
-package com.user;
+package org.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Transactionservice {
+public class ProductService {
     public static void main(String[] args) {
-        SpringApplication.run(Transactionservice.class);
+        System.out.println("Hello world!");
+        SpringApplication.run(ProductService.class);
     }
 }
